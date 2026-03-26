@@ -476,7 +476,7 @@ if __name__ == "__main__":
     plt.rcParams['axes3d.mouserotationstyle'] = 'azel'
 
     initial_condition_test()
-    # integrate_grid_of_rays()
-    render_image()
+    integrate_grid_of_rays()
+    # render_image()
 
     plt.show()

@@ -5,10 +5,10 @@ description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
     "jupyterlab==4.6.0a4",
-    "matplotlib==3.10.8",
-    "numpy==2.4.3",
-    "scipy>=1.17.1",
-    "sympy>=1.14.0",
+    "matplotlib~=3.10.8",
+    "numpy~=2.4.3",
+    "scipy~=1.17.1",
+    "sympy~=1.14.0",
 ]
 
 [tool.uv.workspace]
